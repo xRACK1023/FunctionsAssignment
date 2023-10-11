@@ -4,22 +4,14 @@
 void printNumsBackward(int start, int end);
 int factorial(int n);
 float feet2meters(float f_length);
-float meeters2feet(float m_length);
+float meters2feet(float m_length);
 float average(int a, int b, int c);
 
-void printNumsBackward(int start, int end){
-	int max = start, min = end;
-	do {
-		(min <= max);
-		printf("%d \n", max); max--;
-	} while (max >= min);
-	printf("Enter a start and end number (# #): ");
-	scanf("%i %i", &start, &end);
-
+void printNumsBackward(int start, int end) {
+	for (int i = start; i >= end; i--) {
+		printf("%d ", i);
+	}
 }
-
-//float meters
-
 
 int factorial(int n) {
 	if(n == 0 || n ==1)
@@ -42,8 +34,13 @@ int main() {
 	int start, end, a, b, c, n;
 	float f_length, m_length;
 
+	do{
 	printf("Enter a start and end number (# #): ");
 	scanf("%i %i", &start, &end);
+	if (start < end) {
+		printf("Error! Reenter and reverse numbers.\n");
+	}
+	}while (start < end);
 	printNumsBackward(start, end); 
 
 	printf("Enter feet distance: ");
