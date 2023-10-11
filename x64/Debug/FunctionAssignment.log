@@ -1,2 +1,4 @@
 ﻿  FunctionAssignment.cpp
+C:\School\FunctionsAssignment\FunctionAssignment.cpp(36,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\School\FunctionsAssignment\FunctionAssignment.cpp(43,18): warning C4101: 'm_length': unreferenced local variable
   FunctionAssignment.vcxproj -> C:\School\FunctionsAssignment\x64\Debug\FunctionAssignment.exe
