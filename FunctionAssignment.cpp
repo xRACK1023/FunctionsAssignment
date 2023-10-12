@@ -33,9 +33,7 @@ int factorial(int n) {
 }
 
 float average(int a, int b, int c) {
-	float avg;
-	avg = (a + b + c) / 3;
-	return avg;
+	return (a + b + c) / 3;
 }
 
 int main() {
