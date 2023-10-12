@@ -1,1 +1,2 @@
 C:\School\CSC150\FunctionAssignment\x64\Debug\FunctionAssignment.exe
+C:\School\FunctionsAssignment\x64\Debug\FunctionAssignment.exe
