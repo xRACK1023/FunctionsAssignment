@@ -24,8 +24,7 @@ float meters2feet(float m_length) {
 }
 
 int factorial(int n) {
-	if(n == 0 || n ==1)
-	{
+	if(n == 0 || n ==1) {
 		return 1;
 	}
 	else {
@@ -45,11 +44,11 @@ int main() {
 	float f_length, m_length;
 	
 	do{
-	printf("Enter a start and end number (# #): ");
-	scanf("%i %i", &start, &end);
-	if (start <= end) {
-		printf("Error! Reenter and reverse numbers.\n");
-	}
+		printf("Enter a start and end number (# #): ");
+		scanf("%i %i", &start, &end);
+		if (start <= end) {
+			printf("Error! Reenter and reverse numbers.\n");
+		}
 	}while (start <= end);
 	printNumsBackward(start, end);
 	printf("\n\n");

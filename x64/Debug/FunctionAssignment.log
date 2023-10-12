@@ -1,5 +1,5 @@
 ﻿  FunctionAssignment.cpp
 C:\School\FunctionsAssignment\FunctionAssignment.cpp(18,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\School\FunctionsAssignment\FunctionAssignment.cpp(23,29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\School\FunctionsAssignment\FunctionAssignment.cpp(38,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\School\FunctionsAssignment\FunctionAssignment.cpp(37,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   FunctionAssignment.vcxproj -> C:\School\FunctionsAssignment\x64\Debug\FunctionAssignment.exe
